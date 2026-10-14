@@ -1,0 +1,1804 @@
+{
+  "_readme": "Данные игры Nether Earth Reloaded. Правьте названия, описания и числа; формат — docs/DATA.md. Ключи (WALKER, BULLET...) не переименовывать.",
+  "units": {
+    "BIKE": {
+      "ability": {},
+      "align": 0.8,
+      "build_seconds": 5.0,
+      "cost": [
+        18,
+        6,
+        2
+      ],
+      "hull": 22.0,
+      "max_tier": 1,
+      "modes": [
+        {
+          "cd": 1.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.0,
+          "icon": "mg",
+          "kind": "BULLET",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Пулемёт",
+          "targets": "all"
+        },
+        {
+          "cd": 2.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.7,
+          "icon": "flame",
+          "kind": "FLAME",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Огнемёт",
+          "targets": "all"
+        },
+        {
+          "cd": 1.0,
+          "charge": 10.0,
+          "deploy": 0.0,
+          "dmg": 3.0,
+          "icon": "tesla",
+          "kind": "TESLA",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Тесла-разряд",
+          "targets": "all"
+        }
+      ],
+      "name": "Мото",
+      "sight": 3,
+      "speed": 7.5,
+      "turn_deg": 200.0,
+      "description": "Боевой мотоцикл с пулемётом. Очень быстрый, поворачивает по дуге, слабая броня. Хорош для набегов. Строится в цехе.",
+      "price": 80,
+      "power": "fuel",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "ENGINEER": {
+      "ability": {
+        "cooldown": 20.0,
+        "radius": 3,
+        "time": 0.0,
+        "title": "Ремонт рядом"
+      },
+      "align": 0.5,
+      "build_seconds": 5.0,
+      "cost": [
+        14,
+        10,
+        2
+      ],
+      "hull": 18.0,
+      "max_tier": 0,
+      "modes": [],
+      "name": "Инженер",
+      "sight": 3,
+      "speed": 2.8,
+      "turn_deg": 300.0,
+      "description": "Инженер без оружия. Захватывает узлы: подойти к жёлтой плите, 8 секунд взлома (воет сирена). Способность — ремонт техники рядом. Строится в цехе.",
+      "price": 90,
+      "power": "",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "ROTOR": {
+      "ability": {
+        "cooldown": 25.0,
+        "radius": 6,
+        "time": 8.0,
+        "title": "Осветительная ракета"
+      },
+      "align": 0.2,
+      "build_seconds": 7.0,
+      "cost": [
+        22,
+        16,
+        8
+      ],
+      "hull": 36.0,
+      "max_tier": 2,
+      "modes": [
+        {
+          "cd": 1.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.0,
+          "icon": "mg",
+          "kind": "BULLET",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Пулемёт",
+          "targets": "all"
+        },
+        {
+          "cd": 2.4,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.9,
+          "icon": "rocket",
+          "kind": "ROCKET",
+          "lob": false,
+          "range": 1.1,
+          "splash": 0.8,
+          "title": "НУРС-залп",
+          "targets": "all"
+        },
+        {
+          "cd": 1.0,
+          "charge": 11.0,
+          "deploy": 0.0,
+          "dmg": 3.0,
+          "icon": "ion",
+          "kind": "ION",
+          "lob": false,
+          "range": 1.3,
+          "splash": 0.0,
+          "title": "ПТУР (глушит)",
+          "targets": "all"
+        }
+      ],
+      "name": "Ротор",
+      "sight": 5,
+      "speed": 6.0,
+      "turn_deg": 160.0,
+      "description": "Ударный вертолёт с соосными винтами. Летит над водой и лесом, обходит горы и здания, умеет зависать. Турель под носом, блоки ракет на пилонах. Строится на аэродроме.",
+      "price": 170,
+      "power": "fuel",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "TRACK": {
+      "ability": {},
+      "align": 0.93,
+      "build_seconds": 9.0,
+      "cost": [
+        40,
+        12,
+        10
+      ],
+      "hull": 70.0,
+      "max_tier": 3,
+      "modes": [
+        {
+          "cd": 1.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.0,
+          "icon": "barrel",
+          "kind": "MAIN",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Пушка",
+          "targets": "all"
+        },
+        {
+          "cd": 2.4,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.9,
+          "icon": "rocket",
+          "kind": "ROCKET",
+          "lob": false,
+          "range": 1.15,
+          "splash": 0.6,
+          "title": "Ракеты",
+          "targets": "all"
+        },
+        {
+          "cd": 1.0,
+          "charge": 14.0,
+          "deploy": 1.6,
+          "dmg": 3.2,
+          "icon": "mortar",
+          "kind": "SHELL",
+          "lob": true,
+          "range": 1.7,
+          "splash": 3.6,
+          "title": "Миномёт",
+          "targets": "all"
+        }
+      ],
+      "name": "Гусеницы",
+      "sight": 4,
+      "speed": 3.4,
+      "turn_deg": 220.0,
+      "description": "Основной танк на гусеницах. Ездит только по равнине, быстро разворачивается на месте. Башня с пушкой и пулемётом; особый режим — миномёт со стрелой, бьёт навесом через препятствия. Строится на тяжёлом заводе.",
+      "price": 220,
+      "power": "fuel",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "TROOPER": {
+      "ability": {},
+      "align": 0.55,
+      "build_seconds": 4.0,
+      "cost": [
+        12,
+        0,
+        2
+      ],
+      "hull": 24.0,
+      "max_tier": 1,
+      "modes": [
+        {
+          "cd": 1.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.0,
+          "icon": "mg",
+          "kind": "MAIN",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Винтовка",
+          "targets": "all"
+        },
+        {
+          "cd": 2.2,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.7,
+          "icon": "grenade",
+          "kind": "SHELL",
+          "lob": false,
+          "range": 0.9,
+          "splash": 1.4,
+          "title": "Подствольник",
+          "targets": "all"
+        },
+        {
+          "cd": 1.0,
+          "charge": 10.0,
+          "deploy": 0.0,
+          "dmg": 4.5,
+          "icon": "laser",
+          "kind": "LASER",
+          "lob": false,
+          "range": 1.6,
+          "splash": 0.0,
+          "title": "Снайперский выстрел",
+          "targets": "all"
+        }
+      ],
+      "name": "Пехота",
+      "sight": 3,
+      "speed": 3.1,
+      "turn_deg": 320.0,
+      "description": "Пехотинец в экзоброне. Проходит между деревьями и камнями, дешёвый. Винтовка, подствольник, снайперский выстрел. Строится в цехе.",
+      "price": 50,
+      "power": "",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "UAV": {
+      "ability": {
+        "cooldown": 30.0,
+        "radius": 9,
+        "time": 12.0,
+        "title": "Разведка"
+      },
+      "align": 0.8,
+      "build_seconds": 8.0,
+      "cost": [
+        28,
+        22,
+        10
+      ],
+      "hull": 32.0,
+      "max_tier": 3,
+      "modes": [
+        {
+          "cd": 1.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.0,
+          "icon": "barrel",
+          "kind": "MAIN",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Пушка",
+          "targets": "all"
+        },
+        {
+          "cd": 2.3,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.8,
+          "icon": "rocket",
+          "kind": "ROCKET",
+          "lob": false,
+          "range": 1.1,
+          "splash": 0.4,
+          "title": "Ракеты",
+          "targets": "all"
+        },
+        {
+          "cd": 1.0,
+          "charge": 15.0,
+          "deploy": 0.0,
+          "dmg": 3.0,
+          "icon": "bomb",
+          "kind": "BOMB",
+          "lob": false,
+          "range": 1.0,
+          "splash": 4.5,
+          "title": "Ковровая бомба",
+          "targets": "all"
+        }
+      ],
+      "name": "БПЛА",
+      "sight": 6,
+      "speed": 11.0,
+      "turn_deg": 70.0,
+      "description": "Беспилотник-летающее крыло. Самый быстрый, летит над всем, но не умеет зависать — по прибытии летит дальше и разворачивается. Лучший разведчик: способность «Разведка» снимает туман войны. Строится на аэродроме.",
+      "price": 200,
+      "power": "electric",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "WALKER": {
+      "ability": {
+        "cooldown": 30.0,
+        "radius": 0,
+        "time": 6.0,
+        "title": "Щит"
+      },
+      "align": 0.96,
+      "build_seconds": 10.0,
+      "cost": [
+        48,
+        18,
+        14
+      ],
+      "hull": 84.0,
+      "max_tier": 3,
+      "modes": [
+        {
+          "cd": 1.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.0,
+          "icon": "mg",
+          "kind": "BULLET",
+          "lob": false,
+          "range": 1.0,
+          "splash": 0.0,
+          "title": "Пулемёты",
+          "targets": "all"
+        },
+        {
+          "cd": 2.2,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "dmg": 1.8,
+          "icon": "grenade",
+          "kind": "SHELL",
+          "lob": false,
+          "range": 1.0,
+          "splash": 1.6,
+          "title": "Гранатомёт",
+          "targets": "all"
+        },
+        {
+          "cd": 1.0,
+          "charge": 12.0,
+          "deploy": 0.0,
+          "dmg": 4.0,
+          "icon": "laser",
+          "kind": "LASER",
+          "lob": false,
+          "range": 1.4,
+          "splash": 0.0,
+          "title": "Лазерная турель",
+          "targets": "all"
+        }
+      ],
+      "name": "Шагоход",
+      "sight": 4,
+      "speed": 2.0,
+      "turn_deg": 55.0,
+      "description": "Тяжёлый шагоход на двух «куриных» ногах (колени назад). Медленный, но самый живучий. Ходит по равнине и камням, на камнях стоит выше. Плечевые пушки и ракетный блок на спине. Строится на тяжёлом заводе.",
+      "price": 260,
+      "power": "electric",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "JET": {
+      "name": "Штурмовик",
+      "description": "Реактивный ударный самолёт собственной разработки: гранёный малозаметный фюзеляж, крыло-трапеция, кили с развалом. Быстрый, бьёт и по земле, и по воздуху (пушка, ракеты), управляемые бомбы — только по наземным целям. Боезапас ограничен: когда он кончается, штурмовик сам летит на свой аэродром и перевооружается. Строится на аэродроме.",
+      "hull": 40.0,
+      "speed": 14.0,
+      "turn_deg": 80.0,
+      "align": 0.0,
+      "cost": [
+        40,
+        20,
+        16
+      ],
+      "build_seconds": 14.0,
+      "sight": 7,
+      "max_tier": 3,
+      "ammo": 10,
+      "rearm_seconds": 8.0,
+      "modes": [
+        {
+          "title": "Пушка (и по воздуху)",
+          "kind": "BULLET",
+          "icon": "mg",
+          "dmg": 1.2,
+          "cd": 0.8,
+          "range": 1.2,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Ракеты",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 2.0,
+          "cd": 1.6,
+          "range": 1.3,
+          "splash": 0.6,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Управляемые бомбы",
+          "kind": "BOMB",
+          "icon": "bomb",
+          "dmg": 3.4,
+          "cd": 1.0,
+          "range": 1.2,
+          "splash": 3.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        }
+      ],
+      "ability": {},
+      "price": 340,
+      "power": "fuel",
+      "draw": 1.5,
+      "fuel_per_s": 0.15
+    },
+    "OIL_TRUCK": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 0.9,
+      "name": "Нефтевоз",
+      "description": "Цистерна: возит нефть от вышек своей нефтяной зоны на завод. Нефть продаётся за $ или идёт на НПЗ. Уничтоженный нефтевоз даёт слабый взрыв и горящую лужу.",
+      "price": 90,
+      "hauls": "oil",
+      "death_blast": {
+        "radius": 2.0,
+        "damage": 14.0,
+        "burn_dps": 5.0,
+        "burn_seconds": 10.0,
+        "burn_radius": 2.2
+      },
+      "speed": 3.6,
+      "turn_deg": 160.0,
+      "hull": 34.0,
+      "sight": 3,
+      "power": "fuel",
+      "fuel_per_s": 0.08,
+      "build_seconds": 6.0,
+      "capacity": 10.0
+    },
+    "GAS_TRUCK": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 0.9,
+      "name": "Газовоз",
+      "description": "Возит газ со скважин. При уничтожении — взрыв средней силы. Вместо газовозов можно проложить газопровод.",
+      "price": 100,
+      "hauls": "gas",
+      "death_blast": {
+        "radius": 3.0,
+        "damage": 32.0
+      },
+      "speed": 3.6,
+      "turn_deg": 160.0,
+      "hull": 34.0,
+      "sight": 3,
+      "power": "fuel",
+      "fuel_per_s": 0.08,
+      "build_seconds": 6.0,
+      "capacity": 10.0
+    },
+    "URANIUM_TRUCK": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 0.9,
+      "name": "Урановоз",
+      "description": "Бронированный контейнеровоз с ураном. Уничтоженный урановоз — мини-ядерный взрыв: берегите его.",
+      "price": 160,
+      "hauls": "uranium",
+      "death_blast": {
+        "radius": 5.5,
+        "damage": 90.0,
+        "nuke": true
+      },
+      "speed": 3.6,
+      "turn_deg": 160.0,
+      "hull": 60.0,
+      "sight": 3,
+      "power": "fuel",
+      "fuel_per_s": 0.08,
+      "build_seconds": 6.0,
+      "capacity": 4.0
+    },
+    "COAL_TRUCK": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 0.9,
+      "name": "Углевоз",
+      "description": "Самосвал с углём. Уголь дешёвый, взрыва нет.",
+      "price": 70,
+      "hauls": "coal",
+      "death_blast": {},
+      "speed": 3.6,
+      "turn_deg": 160.0,
+      "hull": 34.0,
+      "sight": 3,
+      "power": "fuel",
+      "fuel_per_s": 0.08,
+      "build_seconds": 6.0,
+      "capacity": 14.0
+    },
+    "PIPE": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 1.0,
+      "name": "Газопровод",
+      "description": "Сегмент трубы от завода к газовой зоне. Пока все сегменты целы и зона наша, газ идёт без грузовиков. Сегменты можно взорвать.",
+      "price": 12,
+      "hull": 16.0,
+      "speed": 0.0,
+      "sight": 1
+    },
+    "SUB": {
+      "ability": {
+        "title": "Погружение",
+        "cooldown": 25.0,
+        "time": 8.0,
+        "radius": 0
+      },
+      "modes": [
+        {
+          "title": "Торпеда",
+          "kind": "SHELL",
+          "icon": "grenade",
+          "dmg": 1.6,
+          "cd": 1.2,
+          "range": 1.0,
+          "splash": 0.6,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Залп торпед",
+          "kind": "SHELL",
+          "icon": "grenade",
+          "dmg": 2.6,
+          "cd": 2.4,
+          "range": 0.9,
+          "splash": 1.5,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Крылатая ракета",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 4.5,
+          "cd": 1.0,
+          "range": 2.0,
+          "splash": 2.0,
+          "charge": 14.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        }
+      ],
+      "max_tier": 3,
+      "align": 0.0,
+      "name": "Подлодка",
+      "description": "Подводная лодка: торпеды по кораблям и берегу, крылатая ракета издалека. T — погружение: несколько секунд её не видно и по ней не стреляют.",
+      "price": 320,
+      "hull": 60.0,
+      "speed": 4.0,
+      "sight": 5,
+      "weapon": "ROCKET",
+      "build_seconds": 14.0,
+      "turn_deg": 70.0,
+      "power": "fuel",
+      "fuel_per_s": 0.2,
+      "draw": 0.0
+    },
+    "CRUISER": {
+      "ability": {
+        "title": "Радар",
+        "cooldown": 30.0,
+        "time": 10.0,
+        "radius": 12
+      },
+      "modes": [
+        {
+          "title": "ПВО",
+          "kind": "BULLET",
+          "icon": "mg",
+          "dmg": 1.2,
+          "cd": 0.8,
+          "range": 1.3,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Ракеты по берегу",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 2.2,
+          "cd": 1.6,
+          "range": 1.6,
+          "splash": 0.8,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Залп",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 5.0,
+          "cd": 1.0,
+          "range": 1.8,
+          "splash": 2.5,
+          "charge": 16.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        }
+      ],
+      "max_tier": 3,
+      "align": 0.0,
+      "name": "Ракетный крейсер",
+      "description": "Тяжёлый корабль: ПВО, ракеты по берегу и мощный залп. T — радар: открывает туман войны вокруг.",
+      "price": 420,
+      "hull": 140.0,
+      "speed": 2.6,
+      "sight": 7,
+      "weapon": "ROCKET",
+      "build_seconds": 18.0,
+      "turn_deg": 70.0,
+      "power": "fuel",
+      "fuel_per_s": 0.2,
+      "draw": 0.0
+    },
+    "BOAT": {
+      "ability": {
+        "title": "Дымовая завеса",
+        "cooldown": 20.0,
+        "time": 5.0,
+        "radius": 0
+      },
+      "modes": [
+        {
+          "title": "Пулемёт",
+          "kind": "BULLET",
+          "icon": "mg",
+          "dmg": 1.0,
+          "cd": 1.0,
+          "range": 1.0,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "НУРС",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 1.8,
+          "cd": 2.0,
+          "range": 1.1,
+          "splash": 0.8,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Мины",
+          "kind": "SHELL",
+          "icon": "grenade",
+          "dmg": 3.0,
+          "cd": 1.0,
+          "range": 0.7,
+          "splash": 1.6,
+          "charge": 10.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        }
+      ],
+      "max_tier": 2,
+      "align": 0.0,
+      "name": "Патрульный катер",
+      "description": "Быстрый катер: пулемёт, НУРС и мины. T — дымовая завеса: катер временно неуязвим.",
+      "price": 150,
+      "hull": 40.0,
+      "speed": 7.0,
+      "sight": 5,
+      "weapon": "BULLET",
+      "build_seconds": 8.0,
+      "turn_deg": 70.0,
+      "power": "fuel",
+      "fuel_per_s": 0.2,
+      "draw": 0.0
+    },
+    "SEMI": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 0.95,
+      "name": "Тягач с полуприцепом",
+      "description": "Седельный тягач в американском стиле (свой дизайн). У воды разворачивается в Док (G). Док можно свернуть обратно.",
+      "price": 420,
+      "hull": 90.0,
+      "speed": 3.0,
+      "build_seconds": 14.0,
+      "deploys": "DOCK",
+      "turn_deg": 90.0,
+      "sight": 4,
+      "power": "fuel",
+      "fuel_per_s": 0.1
+    },
+    "BUS": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 0.95,
+      "name": "Автобус",
+      "description": "Жёлтый автобус в стиле школьного. Разворачивается в Казарму (G): инженеры и солдаты.",
+      "price": 260,
+      "hull": 70.0,
+      "speed": 4.0,
+      "build_seconds": 10.0,
+      "deploys": "BARRACKS",
+      "turn_deg": 90.0,
+      "sight": 4,
+      "power": "fuel",
+      "fuel_per_s": 0.1
+    },
+    "TRACTOR": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 0.95,
+      "name": "Тяжёлый тягач 12×2",
+      "description": "Военный 12-осный тягач на 24 колёсах. Разворачивается в Завод техники (G): любая техника, включая авиацию.",
+      "price": 700,
+      "hull": 160.0,
+      "speed": 1.8,
+      "build_seconds": 20.0,
+      "deploys": "PLANT",
+      "turn_deg": 90.0,
+      "sight": 4,
+      "power": "fuel",
+      "fuel_per_s": 0.1
+    },
+    "T_MG": {
+      "ability": {},
+      "modes": [
+        {
+          "title": "Очередь",
+          "kind": "BULLET",
+          "icon": "mg",
+          "dmg": 1.2,
+          "cd": 0.8,
+          "range": 1.2,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Длинная очередь",
+          "kind": "BULLET",
+          "icon": "mg",
+          "dmg": 2.0,
+          "cd": 1.8,
+          "range": 1.2,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Зенитный",
+          "kind": "BULLET",
+          "icon": "mg",
+          "dmg": 1.6,
+          "cd": 0.9,
+          "range": 1.5,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "air"
+        }
+      ],
+      "max_tier": 3,
+      "align": 1.0,
+      "name": "Пулемётная турель",
+      "description": "Спаренный пулемёт на поворотной станине. Бьёт по земле и по воздуху.",
+      "price": 120,
+      "hull": 70.0,
+      "weapon": "BULLET",
+      "speed": 0.0,
+      "turn_deg": 200.0,
+      "sight": 5,
+      "power": "electric",
+      "draw": 0.5,
+      "build_seconds": 0.0
+    },
+    "T_CANNON": {
+      "ability": {},
+      "modes": [
+        {
+          "title": "Бронебойный",
+          "kind": "SHELL",
+          "icon": "barrel",
+          "dmg": 1.8,
+          "cd": 1.2,
+          "range": 1.3,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Фугас",
+          "kind": "SHELL",
+          "icon": "grenade",
+          "dmg": 1.6,
+          "cd": 1.6,
+          "range": 1.2,
+          "splash": 1.4,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Подкалиберный",
+          "kind": "SHELL",
+          "icon": "barrel",
+          "dmg": 4.0,
+          "cd": 1.0,
+          "range": 1.5,
+          "splash": 0.0,
+          "charge": 10.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        }
+      ],
+      "max_tier": 3,
+      "align": 1.0,
+      "name": "Противотанковая пушка",
+      "description": "Башня в стиле танковой с длинным стволом. Только наземные цели, сильный бронебойный выстрел.",
+      "price": 200,
+      "hull": 110.0,
+      "weapon": "SHELL",
+      "speed": 0.0,
+      "turn_deg": 200.0,
+      "sight": 5,
+      "power": "electric",
+      "draw": 0.5,
+      "build_seconds": 0.0
+    },
+    "T_MISSILE": {
+      "ability": {},
+      "modes": [
+        {
+          "title": "Ракета",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 1.4,
+          "cd": 1.0,
+          "range": 1.4,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Залп",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 2.5,
+          "cd": 2.2,
+          "range": 1.3,
+          "splash": 1.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "all"
+        },
+        {
+          "title": "Зенитная",
+          "kind": "ROCKET",
+          "icon": "rocket",
+          "dmg": 2.2,
+          "cd": 1.2,
+          "range": 1.8,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "air"
+        }
+      ],
+      "max_tier": 3,
+      "align": 1.0,
+      "name": "Ракетная турель",
+      "description": "Пусковая установка: ракеты по земле и воздуху.",
+      "price": 240,
+      "hull": 80.0,
+      "weapon": "ROCKET",
+      "speed": 0.0,
+      "turn_deg": 200.0,
+      "sight": 5,
+      "power": "electric",
+      "draw": 0.5,
+      "build_seconds": 0.0
+    },
+    "T_LASER": {
+      "ability": {},
+      "modes": [
+        {
+          "title": "Луч",
+          "kind": "LASER",
+          "icon": "laser",
+          "dmg": 1.0,
+          "cd": 1.0,
+          "range": 1.2,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Импульс",
+          "kind": "LASER",
+          "icon": "laser",
+          "dmg": 2.2,
+          "cd": 2.0,
+          "range": 1.2,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Прожиг",
+          "kind": "LASER",
+          "icon": "laser",
+          "dmg": 4.0,
+          "cd": 1.0,
+          "range": 1.4,
+          "splash": 0.0,
+          "charge": 10.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        }
+      ],
+      "max_tier": 3,
+      "align": 1.0,
+      "name": "Лазерная турель",
+      "description": "Лазер: мгновенный луч по наземным целям.",
+      "price": 260,
+      "hull": 70.0,
+      "weapon": "LASER",
+      "speed": 0.0,
+      "turn_deg": 200.0,
+      "sight": 5,
+      "power": "electric",
+      "draw": 0.5,
+      "build_seconds": 0.0
+    },
+    "T_ION": {
+      "ability": {},
+      "modes": [
+        {
+          "title": "Ион",
+          "kind": "ION",
+          "icon": "ion",
+          "dmg": 1.0,
+          "cd": 1.0,
+          "range": 1.1,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Ионный шторм",
+          "kind": "ION",
+          "icon": "ion",
+          "dmg": 1.8,
+          "cd": 2.2,
+          "range": 1.0,
+          "splash": 1.4,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Подавление",
+          "kind": "ION",
+          "icon": "ion",
+          "dmg": 3.0,
+          "cd": 1.0,
+          "range": 1.3,
+          "splash": 0.0,
+          "charge": 12.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        }
+      ],
+      "max_tier": 3,
+      "align": 1.0,
+      "name": "Ионная турель",
+      "description": "Ионный разрядник: глушит технику (стан).",
+      "price": 280,
+      "hull": 70.0,
+      "weapon": "ION",
+      "speed": 0.0,
+      "turn_deg": 200.0,
+      "sight": 5,
+      "power": "electric",
+      "draw": 0.5,
+      "build_seconds": 0.0
+    },
+    "T_TESLA": {
+      "ability": {},
+      "modes": [
+        {
+          "title": "Дуга",
+          "kind": "TESLA",
+          "icon": "tesla",
+          "dmg": 1.0,
+          "cd": 1.0,
+          "range": 1.0,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Цепь",
+          "kind": "TESLA",
+          "icon": "tesla",
+          "dmg": 1.8,
+          "cd": 2.0,
+          "range": 1.0,
+          "splash": 0.0,
+          "charge": 0.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        },
+        {
+          "title": "Разряд",
+          "kind": "TESLA",
+          "icon": "tesla",
+          "dmg": 3.5,
+          "cd": 1.0,
+          "range": 1.2,
+          "splash": 0.0,
+          "charge": 10.0,
+          "deploy": 0.0,
+          "lob": false,
+          "targets": "ground"
+        }
+      ],
+      "max_tier": 3,
+      "align": 1.0,
+      "name": "Тесла-турель",
+      "description": "Катушка Теслы: дуги электричества перескакивают между врагами.",
+      "price": 300,
+      "hull": 80.0,
+      "weapon": "TESLA",
+      "speed": 0.0,
+      "turn_deg": 200.0,
+      "sight": 5,
+      "power": "electric",
+      "draw": 0.5,
+      "build_seconds": 0.0
+    },
+    "WALL": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 1.0,
+      "name": "Стена",
+      "description": "Бетонный сегмент стены: преграда для наземной техники и пехоты. Ставится в радиусе постройки.",
+      "price": 20,
+      "hull": 120.0,
+      "speed": 0.0,
+      "sight": 1
+    },
+    "GATE": {
+      "ability": {},
+      "modes": [],
+      "max_tier": 0,
+      "align": 1.0,
+      "name": "Ворота",
+      "description": "Ворота в стене. Режимы: открыто, закрыто, авто (открыты для своих и союзников, закрыты для врагов). Клавиша O или кнопка в панели.",
+      "price": 40,
+      "hull": 100.0,
+      "speed": 0.0,
+      "sight": 1
+    }
+  },
+  "weapons": {
+    "BOMB": {
+      "chains": 0,
+      "color": "#2a2d31",
+      "cooldown": 2.0,
+      "damage_scale": 1.7,
+      "min_tier": 2,
+      "name": "Бомбы",
+      "power": 9,
+      "range": 11.0,
+      "speed": 14.0,
+      "splash": 3.4,
+      "stun": 0.0,
+      "description": "Бомба: только для авиации, падает вниз, большой взрыв."
+    },
+    "BULLET": {
+      "chains": 0,
+      "color": "#c5c8cc",
+      "cooldown": 0.28,
+      "damage_scale": 0.5,
+      "min_tier": 1,
+      "name": "Пули",
+      "power": 2,
+      "range": 9.0,
+      "speed": 28.0,
+      "splash": 0.0,
+      "stun": 0.0,
+      "description": "Пулемётная очередь: быстро, слабо, недалеко."
+    },
+    "FLAME": {
+      "chains": 0,
+      "color": "#e23b2b",
+      "cooldown": 0.22,
+      "damage_scale": 0.4,
+      "min_tier": 1,
+      "name": "Огнемёт",
+      "power": 3,
+      "range": 5.5,
+      "speed": 0.0,
+      "splash": 0.0,
+      "stun": 0.0,
+      "description": "Огнемёт: конус огня перед машиной, очень близко."
+    },
+    "ION": {
+      "chains": 0,
+      "color": "#3d6dff",
+      "cooldown": 1.8,
+      "damage_scale": 0.4,
+      "min_tier": 2,
+      "name": "Ионная пушка",
+      "power": 7,
+      "range": 14.0,
+      "speed": 0.0,
+      "splash": 0.0,
+      "stun": 2.4,
+      "description": "Ионная пушка: слабый урон, но глушит цель на время (stun)."
+    },
+    "LASER": {
+      "chains": 0,
+      "color": "#3ec8e6",
+      "cooldown": 0.7,
+      "damage_scale": 0.85,
+      "min_tier": 1,
+      "name": "Лазер",
+      "power": 4,
+      "range": 14.0,
+      "speed": 0.0,
+      "splash": 0.0,
+      "stun": 0.0,
+      "description": "Лазер: мгновенный луч, дальний."
+    },
+    "PLASMA": {
+      "chains": 0,
+      "color": "#b14bff",
+      "cooldown": 1.35,
+      "damage_scale": 1.4,
+      "min_tier": 3,
+      "name": "Плазма",
+      "power": 8,
+      "range": 12.0,
+      "speed": 9.0,
+      "splash": 2.0,
+      "stun": 0.0,
+      "description": "Плазма: медленный мощный сгусток с взрывом."
+    },
+    "ROCKET": {
+      "chains": 0,
+      "color": "#f2f2f2",
+      "cooldown": 1.4,
+      "damage_scale": 1.25,
+      "min_tier": 2,
+      "name": "Ракеты",
+      "power": 6,
+      "range": 16.0,
+      "speed": 18.0,
+      "splash": 2.4,
+      "stun": 0.0,
+      "description": "Ракета: дальний выстрел с взрывом."
+    },
+    "SHELL": {
+      "chains": 0,
+      "color": "#e07a2f",
+      "cooldown": 1.15,
+      "damage_scale": 1.15,
+      "min_tier": 2,
+      "name": "Снаряды",
+      "power": 5,
+      "range": 13.0,
+      "speed": 16.0,
+      "splash": 1.8,
+      "stun": 0.0,
+      "description": "Снаряд с небольшим взрывом."
+    },
+    "TESLA": {
+      "chains": 3,
+      "color": "#f0d24a",
+      "cooldown": 1.0,
+      "damage_scale": 0.75,
+      "min_tier": 2,
+      "name": "Тесла",
+      "power": 6,
+      "range": 8.0,
+      "speed": 0.0,
+      "splash": 0.0,
+      "stun": 0.0,
+      "description": "Тесла: молния перескакивает на соседних врагов (chains)."
+    }
+  },
+  "buildings": {
+    "HQ": {
+      "name": "Штаб",
+      "hull": 160,
+      "description": "Главное здание. Даёт зону связи и доход 1 металл и 1 энергию в секунду. Потеря своего штаба — поражение, разрушение вражеского — победа. Это и есть наш завод: выпускает инженеров, грузовики и разворачиваемые базы; сюда грузовики везут сырьё.",
+      "builds": [
+        "ENGINEER",
+        "OIL_TRUCK",
+        "GAS_TRUCK",
+        "URANIUM_TRUCK",
+        "COAL_TRUCK",
+        "BUS",
+        "SEMI",
+        "TRACTOR"
+      ],
+      "build_radius": 10
+    },
+    "RELAY": {
+      "name": "Вышка",
+      "description": "Ретранслятор: расширяет зону связи. Вне связи юниты замирают и не слушают приказов."
+    },
+    "FACTORY": {
+      "name": "Тяжёлый завод",
+      "description": "Строит шагоходы и танки. Клик по своему заводу — меню заказа, очередь до 5.",
+      "builds": [
+        "WALKER",
+        "TRACK"
+      ]
+    },
+    "EXTRACTOR": {
+      "name": "Добыча",
+      "description": "Жила (металл), чипы или станция (энергия): после захвата пополняет общий склад."
+    },
+    "AIR": {
+      "name": "Аэродром",
+      "description": "Строит БПЛА и роторы. Здесь же перевооружаются штурмовики.",
+      "builds": [
+        "UAV",
+        "ROTOR",
+        "JET"
+      ]
+    },
+    "ROBOT": {
+      "name": "Цех",
+      "description": "Строит пехоту, мото и инженеров.",
+      "builds": [
+        "TROOPER",
+        "BIKE",
+        "ENGINEER"
+      ]
+    },
+    "DOCK": {
+      "name": "Док",
+      "description": "Плавучая верфь у берега. Тягач с полуприцепом разворачивается в док (G), док сворачивается обратно в тягач. Строит подлодки, ракетные крейсеры и патрульные катера. Вокруг дока можно строить турели.",
+      "hull": 140,
+      "radius": 18.0,
+      "build_radius": 8,
+      "builds": [
+        "BOAT",
+        "SUB",
+        "CRUISER"
+      ]
+    },
+    "BARRACKS": {
+      "name": "Казарма",
+      "description": "Школьный автобус, развёрнутый в казарму (G). Готовит инженеров и солдат. Даёт зону связи и зону постройки турелей.",
+      "hull": 110,
+      "radius": 18.0,
+      "build_radius": 7,
+      "builds": [
+        "ENGINEER",
+        "TROOPER"
+      ]
+    },
+    "PLANT": {
+      "name": "Завод техники",
+      "description": "24-колёсный тягач, развёрнутый в завод (G). Выпускает любую технику, включая авиацию. Даёт зону связи и постройки.",
+      "hull": 180,
+      "radius": 20.0,
+      "build_radius": 9,
+      "builds": [
+        "WALKER",
+        "TRACK",
+        "BIKE",
+        "UAV",
+        "ROTOR",
+        "JET",
+        "OIL_TRUCK",
+        "GAS_TRUCK",
+        "URANIUM_TRUCK",
+        "COAL_TRUCK"
+      ]
+    },
+    "REFINERY": {
+      "name": "НПЗ",
+      "description": "Нефтеперерабатывающий завод. Ставится в радиусе завода. Превращает доставленную нефть в топливо (⛽) для топливной техники.",
+      "hull": 90,
+      "price": 220,
+      "oil_per_s": 1.0,
+      "fuel_per_oil": 3.0,
+      "death_blast": {
+        "radius": 3.0,
+        "damage": 30.0,
+        "burn_dps": 4.0,
+        "burn_seconds": 8.0
+      }
+    },
+    "GAS_PLANT": {
+      "name": "Газовая ТЭС",
+      "description": "Газовая электростанция: сжигает газ, даёт электричество (⚡). Газ дорогой — станция дороже угольной по расходу.",
+      "hull": 90,
+      "price": 260,
+      "gas_per_s": 0.6,
+      "power": 14.0,
+      "death_blast": {
+        "radius": 3.5,
+        "damage": 45.0
+      }
+    },
+    "NUCLEAR": {
+      "name": "АЭС",
+      "description": "Атомная электростанция: очень дешёвое электричество из урана. Разрушенная АЭС даёт большой ядерный взрыв.",
+      "hull": 200,
+      "price": 600,
+      "uranium_per_s": 0.05,
+      "power": 40.0,
+      "death_blast": {
+        "radius": 9.0,
+        "damage": 220.0
+      }
+    },
+    "COAL_PLANT": {
+      "name": "Угольная ТЭС",
+      "description": "Дешёвое электричество из угля, но вокруг сажа и смог: обзор и здоровье юнитов в радиусе падают.",
+      "hull": 100,
+      "price": 180,
+      "coal_per_s": 0.5,
+      "power": 16.0,
+      "smog_radius": 6.0,
+      "smog_dps": 0.6,
+      "smog_sight": -2,
+      "death_blast": {
+        "radius": 3.0,
+        "damage": 35.0
+      }
+    },
+    "DERRICK": {
+      "name": "Нефтевышка",
+      "description": "Качалка у флага нефтяной зоны. Захватывается вместе с зоной (только инженером). Нефтевозы грузятся здесь.",
+      "resource": "oil",
+      "load_seconds": 4.0
+    },
+    "OIL_STORAGE": {
+      "name": "Нефтехранилище",
+      "description": "Резервуары у флага: нефтевозы грузятся быстрее.",
+      "resource": "oil",
+      "load_seconds": 2.0
+    },
+    "GAS_WELL": {
+      "name": "Газовая скважина",
+      "description": "Скважина у флага газовой зоны. Газ возят газовозы или подаёт газопровод от завода.",
+      "resource": "gas",
+      "load_seconds": 4.0
+    },
+    "URANIUM_MINE": {
+      "name": "Урановый рудник",
+      "description": "Рудник у флага урановой зоны. Урановозы опасны: при уничтожении — мини-ядерный взрыв.",
+      "resource": "uranium",
+      "load_seconds": 6.0
+    },
+    "COAL_MINE": {
+      "name": "Угольная шахта",
+      "description": "Шахта у флага угольной зоны. Углевозы возят уголь на завод.",
+      "resource": "coal",
+      "load_seconds": 4.0
+    }
+  },
+  "terrain": {
+    "BUILDING": {
+      "lift": 0.0,
+      "name": "здание",
+      "rough": 0.1,
+      "description": "Нейтральные дома: препятствие, не захватываются."
+    },
+    "LINK": {
+      "lift": 0.0,
+      "name": "узел",
+      "rough": 0.0,
+      "description": "Узел сети: штаб, вышка, завод или добыча."
+    },
+    "MOUNTAIN": {
+      "lift": 0.75,
+      "name": "гора",
+      "rough": 1.8,
+      "description": "Горы: только БПЛА. Закрывают выстрелы."
+    },
+    "PLAIN": {
+      "lift": 0.0,
+      "name": "равнина",
+      "rough": 1.0,
+      "description": "Равнина: проходима для всех."
+    },
+    "STONE": {
+      "lift": 0.32,
+      "name": "камни",
+      "rough": 1.4,
+      "description": "Камни: шагоход и пехота проходят, гусеницы и мото — нет."
+    },
+    "TREE": {
+      "lift": 0.12,
+      "name": "деревья",
+      "rough": 1.1,
+      "description": "Лес: пехота, инженер и авиация."
+    },
+    "WATER": {
+      "lift": -0.5,
+      "name": "вода",
+      "rough": 0.3,
+      "description": "Вода: только авиация."
+    }
+  },
+  "help": {
+    "ui_panel": {
+      "title": "Нижняя панель",
+      "text": "Слева миникарта, в центре группы и выбранные юниты, справа команды, оружие и камера, справа окно связи для персонажей кампании."
+    },
+    "ui_minimap": {
+      "title": "Миникарта",
+      "text": "ЛКМ или перетаскивание — переместить камеру. ПКМ — приказ выбранным юнитам в эту точку. Белая рамка — что видит камера. Тёмное — туман войны."
+    },
+    "ui_groups": {
+      "title": "Группы",
+      "text": "Ctrl+1…0 — записать выбранных в группу. 1…0 — выбрать группу, дважды — камера к ней. Alt+номер или кнопка «✕ Расформировать» (Backspace) — убрать группу."
+    },
+    "ui_selection": {
+      "title": "Выбор",
+      "text": "Сведения о выбранном юните или заводе. Если выбрано несколько — список юнитов, клик по нему оставляет одного."
+    },
+    "ui_orders": {
+      "title": "Режимы приказов",
+      "text": "Марш — ПКМ по контексту (ход, атака, захват). Захват — инженеры идут на узел. Охрана — держать точку или флаг. Флаг F / Снять R — метки для охраны."
+    },
+    "ui_weapons": {
+      "title": "Оружие и режимы",
+      "text": "◀ ▶ — основное оружие, − + — сила (I–III). Z — основной режим, X — усиленный (сильнее, долгая перезарядка), C — особый (копит заряд, проценты на кнопке). T — способность."
+    },
+    "ui_camera": {
+      "title": "Камера",
+      "text": "WASD/стрелки/край экрана — сдвиг, Q/E — поворот на 90°, колесо или +/− — масштаб, Home или 100% — сброс масштаба.\nПробел — к своим базам и заводам по кругу; если недавно была тревога — сначала к ней.\nEnd — к последнему событию (атака, захват, потеря).\nДвойное нажатие цифры группы — камера к группе.\nBackspace или щелчок по названию выбранного в панели — к выбранным.\nМиникарта: ЛКМ/перетаскивание — камера, ПКМ — приказ выбранным.\nВсе клавиши переназначаются в «Настройки → Управление»."
+    },
+    "ui_exit": {
+      "title": "Выход и выгрузка",
+      "text": "«В лобби» и крестик окна спрашивают подтверждение («Точно покинуть матч?», «Выйти из игры?»). Enter — да, Esc — нет.\nПосле подтверждения экран выгрузки показывает реальные этапы: отключение сети, выгрузка техники, снос построек, сохранение настроек."
+    },
+    "ui_log": {
+      "title": "Журнал и запись при падении",
+      "text": "Настройки → «Журнал». По умолчанию всё выключено.\nЖурнал: уровни TRACE, DEBUG, INFO, WARNING, ERROR, CRITICAL (галочки или «Все уровни»). Файлы game_<дата>_<время>.log в папке logs рядом с exe, хранятся последние 10.\nЗапуск с флагом --log=all, --log=info,error или --log=off (либо переменная NE_LOG) перекрывает настройку.\n«Запись при падении» — отдельная галочка: каждая строка сразу пишется на диск, сохраняются ошибки движка и скриптов; если игра закрылась аварийно, при следующем запуске журнал прошлой сессии сохраняется как crash_<время>.log."
+    },
+    "ui_story": {
+      "title": "Окно связи",
+      "text": "Здесь будут говорить персонажи кампании."
+    },
+    "ui_resources": {
+      "title": "Ресурсы",
+      "text": "Металл, чипы и энергия — общий склад. Доход дают штаб и захваченные добыча, чипы, станция."
+    },
+    "ui_difficulty": {
+      "title": "Сложность ИИ",
+      "text": "Пять уровней: [b]Новичок[/b], [b]Лёгкий[/b], [b]Средний[/b], [b]Сложный[/b], [b]Эксперт[/b]. Каждому компьютерному слоту в лобби задаётся свой уровень; кнопки справа сверху меняют уровень всех ИИ сразу. Параметры уровней — data/game.json, раздел skirmish.levels."
+    },
+    "ui_cheats": {
+      "title": "Читы (F9)",
+      "text": "Опция хоста «Разрешить читы» в лобби (по умолчанию включена в одиночной игре; в сети решает создатель сервера, клиенты видят её). Если выключена, F9 не открывает панель. Бессмертие, мгновенные особые режимы, ресурсы, без тумана, спавн юнитов, зданий и ландшафта: выбрать, «Ставить», ЛКМ по карте, ПКМ/Esc — закончить."
+    },
+    "ui_settings": {
+      "title": "Настройки (Esc / F10)",
+      "text": "Графика (пресеты и отдельные опции), экран, интерфейс (размер текста, масштаб, время подсказки F1), звук, управление. Сохраняются в user://settings.cfg."
+    },
+    "controls": {
+      "title": "Управление",
+      "text": "ЛКМ — выбрать, рамка ЛКМ — несколько, Shift — добавить, Ctrl+клик — убрать. ПКМ — действие по курсору: ход, атака, захват. Ctrl+ПКМ — огонь по земле. Z/X/C — режим оружия, T — способность, F/R — флаг. F1 над чем угодно — подсказка (клик по ней — статья). Shift+F1 — справочник. Esc — настройки, F9 — читы."
+    },
+    "cursors": {
+      "title": "Курсоры",
+      "text": "Стрелка — ничего не выбрано. Зелёные шевроны — ход. Жёлтый флажок — захват. Синий щит — охрана. Красный прицел — атака. Оранжевый прицел с чертой — огонь по земле (Ctrl). Фиолетовый плюс — размещение (читы)."
+    },
+    "fog": {
+      "title": "Туман войны",
+      "text": "Неразведанное — тёмное, разведанное вне обзора — полутень. Враги видны только в обзоре своих юнитов и узлов. Отключается в читах."
+    },
+    "lobby": {
+      "title": "Лобби схватки",
+      "text": "Перед боем выберите карту (на 2, 4, 6 или 8 игроков). Для каждого слота: [b]Человек[/b] (игрок по сети), [b]Компьютер[/b] (ИИ с уровнем) или [b]Закрыт[/b]. Задайте команду (одинаковый номер — союзники), цвет и стартовую позицию. «Начать бой» запускает схватку. Победа — когда штабы всех враждебных команд разрушены или захвачены."
+    },
+    "maps": {
+      "title": "Карты",
+      "text": "Карты лежат в data/maps/*.json и правятся вручную (формат — docs/MAPS.md). Все карты схватки симметричны: у каждого старта одинаковые штаб, добыча и путь до центра. Классика — исходная вытянутая карта 1 на 1."
+    },
+    "multiplayer": {
+      "title": "Игра по сети (LAN)",
+      "text": "[b]Создать сервер[/b]: имя игры и порт (по умолчанию 24680). Остальные жмут [b]Найти игру[/b] — сервера локальной сети появляются в списке (имя, карта, игроки, пинг). Если поиск не видит сервер, введите IP:порт вручную. Хост может отдать свободные слоты компьютеру. Брандмауэр Windows: tools\\firewall.ps1 (от администратора). Сервер считает бой сам, клиенты присылают приказы и получают состояние."
+    },
+    "victory": {
+      "title": "Победа и поражение",
+      "text": "Сторона выбывает, когда её штаб разрушен или захвачен. Команда побеждает, когда остались только её стороны."
+    },
+    "jet_rearm": {
+      "title": "Штурмовик: боезапас и аэродром",
+      "text": "У штурмовика 10 залпов (поле ammo). Пустой — он бросает цель, летит к ближайшему своему аэродрому и за 8 с (rearm_seconds) пополняет боезапас и чинит четверть корпуса. Без своего аэродрома ждёт, пока вы его захватите. Режим «Управляемые бомбы» (C) бьёт только по наземным целям (targets: ground)."
+    }
+  },
+  "skirmish": {
+    "_readme": "Схватка: цвета сторон, уровни ИИ, стартовый отряд, сеть. Карты — data/maps/*.json (docs/MAPS.md).",
+    "default_map": "classic",
+    "default_level": 2,
+    "start_roster": [
+      "WALKER",
+      "TRACK",
+      "BIKE",
+      "TROOPER",
+      "ENGINEER"
+    ],
+    "start_metal": 40,
+    "start_chips": 16,
+    "start_power": 24,
+    "colors": [
+      {
+        "name": "Зелёный",
+        "color": "#5fe08a"
+      },
+      {
+        "name": "Красный",
+        "color": "#ff5a4a"
+      },
+      {
+        "name": "Синий",
+        "color": "#4a8cff"
+      },
+      {
+        "name": "Жёлтый",
+        "color": "#f0d040"
+      },
+      {
+        "name": "Фиолетовый",
+        "color": "#b062ff"
+      },
+      {
+        "name": "Бирюзовый",
+        "color": "#3ad6d0"
+      },
+      {
+        "name": "Оранжевый",
+        "color": "#ff9a30"
+      },
+      {
+        "name": "Белый",
+        "color": "#e8e8e8"
+      }
+    ],
+    "levels": [
+      {
+        "name": "Новичок",
+        "interval": 9.0,
+        "captures": false,
+        "hunts": false,
+        "raids": false,
+        "assault": false,
+        "builds": true,
+        "build_interval": 40.0,
+        "income": 0.6,
+        "description": "Почти не нападает и медленно строит. Для знакомства с игрой."
+      },
+      {
+        "name": "Лёгкий",
+        "interval": 7.0,
+        "captures": false,
+        "hunts": false,
+        "raids": false,
+        "assault": false,
+        "builds": true,
+        "build_interval": 28.0,
+        "income": 0.8,
+        "description": "Защищается и понемногу строит, захватов не делает."
+      },
+      {
+        "name": "Средний",
+        "interval": 4.0,
+        "captures": true,
+        "hunts": true,
+        "raids": true,
+        "assault": false,
+        "builds": true,
+        "build_interval": 18.0,
+        "income": 1.0,
+        "description": "Берёт нейтральные вышки и добычу, охотится на инженеров, совершает рейды."
+      },
+      {
+        "name": "Сложный",
+        "interval": 2.2,
+        "captures": true,
+        "hunts": true,
+        "raids": true,
+        "assault": true,
+        "builds": true,
+        "build_interval": 12.0,
+        "income": 1.0,
+        "description": "Режет чужие вышки, штурмует штаб, строит постоянно."
+      },
+      {
+        "name": "Эксперт",
+        "interval": 1.4,
+        "captures": true,
+        "hunts": true,
+        "raids": true,
+        "assault": true,
+        "builds": true,
+        "build_interval": 8.0,
+        "income": 1.3,
+        "description": "Как сложный, но быстрее думает и получает +30% дохода."
+      }
+    ],
+    "net": {
+      "discovery_port": 24681,
+      "max_clients": 7,
+      "snapshot_hz": 10
+    },
+    "maps": [
+      "classic",
+      "duel",
+      "cross",
+      "six",
+      "eight"
+    ],
+    "unit_cap": 300,
+    "map_sizes": {
+      "_readme": "Внутренний размер карт схватки (без морского кольца). Площадь: 4 игрока ≈ 3× от 2, 8 игроков ≈ 3× от 4, 6 — между.",
+      "2": [
+        60,
+        40
+      ],
+      "4": [
+        85,
+        85
+      ],
+      "6": [
+        154,
+        94
+      ],
+      "8": [
+        147,
+        147
+      ],
+      "sea": 3
+    }
+  },
+  "economy": {
+    "_readme": "Экономика: доллары ($) — единая казна. Сырьё везут грузовики, на заводе оно продаётся по rates или идёт на свои станции.",
+    "start_money": 1200,
+    "start_fuel": 60.0,
+    "site_income_usd": 2.0,
+    "hq_power": 10.0,
+    "hq_fuel_per_s": 0.2,
+    "raw_cap": 200.0,
+    "rates": {
+      "oil": 6.0,
+      "gas": 9.0,
+      "uranium": 40.0,
+      "coal": 4.0
+    },
+    "build_draw": 2.0,
+    "blackout_min": 0.35,
+    "no_fuel_factor": 0.4,
+    "flag": {
+      "capture_per_s": 12.5,
+      "decay_per_s": 4.0,
+      "contest_mult": 2.0,
+      "relay_radius": 14.0
+    },
+    "pipeline": {
+      "gas_per_s": 0.8,
+      "segment_price": 12
+    },
+    "build_radius_default": 8,
+    "turret_refund": 0.6,
+    "sell_refund": 0.5
+  }
+}

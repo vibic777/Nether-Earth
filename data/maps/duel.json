@@ -1,0 +1,794 @@
+{
+ "id": "duel",
+ "name": "Дуэль",
+ "description": "Симметричная карта 1 на 1 (поворот на 180°).",
+ "players": 2,
+ "symmetry": "r2",
+ "width": 66,
+ "height": 46,
+ "rows": [
+  "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+  "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+  "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+  "www................sss..........m........................t.....www",
+  "www................sss..........................ww.............www",
+  "www.....mm.................................btt..ww........t....www",
+  "www...ss...................................bb...........sss....www",
+  "www...ss...................s...................................www",
+  "www...................................ss.......................www",
+  "www........s..................................................mwww",
+  "www........s...................................................www",
+  "www........s........................................bb.........www",
+  "www.................................................bb..bb.....www",
+  "www.....................................................bb.....www",
+  "www............................................................www",
+  "www..............................................tt............www",
+  "www..............................................tt...........swww",
+  "www..............................................tt............www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............................................................www",
+  "www............tt..............................................www",
+  "wwws...........tt..............................................www",
+  "www............tt..............................................www",
+  "www............................................................www",
+  "www.....bb.....................................................www",
+  "www.....bb..bb.................................................www",
+  "www.........bb........................................s........www",
+  "www...................................................s........www",
+  "wwwm..................................................s........www",
+  "www.......................ss...................................www",
+  "www...................................s...................ss...www",
+  "www....sss...........bb...................................ss...www",
+  "www....t........ww..ttb.................................mm.....www",
+  "www.............ww..........................sss................www",
+  "www.....t........................m..........sss................www",
+  "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+  "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+  "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+ ],
+ "starts": [
+  {
+   "title": "Штаб",
+   "hq": [
+    [
+     7,
+     22
+    ],
+    [
+     7,
+     23
+    ]
+   ],
+   "terminal": [
+    8,
+    22
+   ],
+   "radius": 28.0,
+   "metal": 1,
+   "chips": 1,
+   "power": 1,
+   "index": 0
+  },
+  {
+   "title": "Штаб",
+   "hq": [
+    [
+     58,
+     23
+    ],
+    [
+     58,
+     22
+    ]
+   ],
+   "terminal": [
+    57,
+    23
+   ],
+   "radius": 28.0,
+   "metal": 1,
+   "chips": 1,
+   "power": 1,
+   "index": 1
+  }
+ ],
+ "sites": [
+  {
+   "kind": "EXTRACTOR",
+   "title": "Жила",
+   "cells": [
+    [
+     14,
+     17
+    ]
+   ],
+   "terminal": [
+    14,
+    18
+   ],
+   "radius": 0.0,
+   "metal": 3,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "RELAY",
+   "title": "Вышка",
+   "cells": [
+    [
+     19,
+     24
+    ]
+   ],
+   "terminal": [
+    19,
+    23
+   ],
+   "radius": 30.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "ROBOT",
+   "title": "Цех",
+   "cells": [
+    [
+     11,
+     29
+    ]
+   ],
+   "terminal": [
+    12,
+    29
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "start": 0
+  },
+  {
+   "kind": "EXTRACTOR",
+   "title": "Жила",
+   "cells": [
+    [
+     51,
+     28
+    ]
+   ],
+   "terminal": [
+    51,
+    27
+   ],
+   "radius": 0.0,
+   "metal": 3,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "RELAY",
+   "title": "Вышка",
+   "cells": [
+    [
+     46,
+     21
+    ]
+   ],
+   "terminal": [
+    46,
+    22
+   ],
+   "radius": 30.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "ROBOT",
+   "title": "Цех",
+   "cells": [
+    [
+     54,
+     16
+    ]
+   ],
+   "terminal": [
+    53,
+    16
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "start": 1
+  },
+  {
+   "kind": "DERRICK",
+   "title": "Нефтевышка",
+   "cells": [
+    [
+     17,
+     12
+    ]
+   ],
+   "terminal": [
+    17,
+    13
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 0
+  },
+  {
+   "kind": "DERRICK",
+   "title": "Нефтевышка",
+   "cells": [
+    [
+     21,
+     12
+    ]
+   ],
+   "terminal": [
+    21,
+    13
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 0
+  },
+  {
+   "kind": "OIL_STORAGE",
+   "title": "Нефтехранилище",
+   "cells": [
+    [
+     19,
+     15
+    ]
+   ],
+   "terminal": [
+    19,
+    16
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 0
+  },
+  {
+   "kind": "COAL_MINE",
+   "title": "Угольная шахта",
+   "cells": [
+    [
+     23,
+     33
+    ]
+   ],
+   "terminal": [
+    23,
+    34
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 1
+  },
+  {
+   "kind": "COAL_MINE",
+   "title": "Угольная шахта",
+   "cells": [
+    [
+     27,
+     33
+    ]
+   ],
+   "terminal": [
+    27,
+    34
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 1
+  },
+  {
+   "kind": "GAS_WELL",
+   "title": "Газовая скважина",
+   "cells": [
+    [
+     42,
+     9
+    ]
+   ],
+   "terminal": [
+    42,
+    10
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 2
+  },
+  {
+   "kind": "GAS_WELL",
+   "title": "Газовая скважина",
+   "cells": [
+    [
+     46,
+     9
+    ]
+   ],
+   "terminal": [
+    46,
+    10
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 2
+  },
+  {
+   "kind": "URANIUM_MINE",
+   "title": "Урановый рудник",
+   "cells": [
+    [
+     31,
+     23
+    ]
+   ],
+   "terminal": [
+    31,
+    24
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 3
+  },
+  {
+   "kind": "URANIUM_MINE",
+   "title": "Урановый рудник",
+   "cells": [
+    [
+     35,
+     23
+    ]
+   ],
+   "terminal": [
+    35,
+    24
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 3
+  },
+  {
+   "kind": "DERRICK",
+   "title": "Нефтевышка",
+   "cells": [
+    [
+     48,
+     33
+    ]
+   ],
+   "terminal": [
+    48,
+    32
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 4
+  },
+  {
+   "kind": "DERRICK",
+   "title": "Нефтевышка",
+   "cells": [
+    [
+     44,
+     33
+    ]
+   ],
+   "terminal": [
+    44,
+    32
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 4
+  },
+  {
+   "kind": "OIL_STORAGE",
+   "title": "Нефтехранилище",
+   "cells": [
+    [
+     46,
+     30
+    ]
+   ],
+   "terminal": [
+    46,
+    29
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 4
+  },
+  {
+   "kind": "COAL_MINE",
+   "title": "Угольная шахта",
+   "cells": [
+    [
+     42,
+     12
+    ]
+   ],
+   "terminal": [
+    42,
+    11
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 5
+  },
+  {
+   "kind": "COAL_MINE",
+   "title": "Угольная шахта",
+   "cells": [
+    [
+     38,
+     12
+    ]
+   ],
+   "terminal": [
+    38,
+    11
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 5
+  },
+  {
+   "kind": "GAS_WELL",
+   "title": "Газовая скважина",
+   "cells": [
+    [
+     23,
+     36
+    ]
+   ],
+   "terminal": [
+    23,
+    35
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 6
+  },
+  {
+   "kind": "GAS_WELL",
+   "title": "Газовая скважина",
+   "cells": [
+    [
+     19,
+     36
+    ]
+   ],
+   "terminal": [
+    19,
+    35
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "zone": 6
+  },
+  {
+   "kind": "ROBOT",
+   "title": "Цех",
+   "cells": [
+    [
+     22,
+     10
+    ]
+   ],
+   "terminal": [
+    22,
+    11
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "EXTRACTOR",
+   "title": "Чипы",
+   "cells": [
+    [
+     28,
+     34
+    ]
+   ],
+   "terminal": [
+    28,
+    33
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 2,
+   "power": 0
+  },
+  {
+   "kind": "AIR",
+   "title": "Аэродром",
+   "cells": [
+    [
+     30,
+     16
+    ]
+   ],
+   "terminal": [
+    30,
+    17
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "RELAY",
+   "title": "Вышка",
+   "cells": [
+    [
+     32,
+     29
+    ]
+   ],
+   "terminal": [
+    32,
+    28
+   ],
+   "radius": 30.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "EXTRACTOR",
+   "title": "Станция",
+   "cells": [
+    [
+     17,
+     34
+    ]
+   ],
+   "terminal": [
+    17,
+    33
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 3
+  },
+  {
+   "kind": "FACTORY",
+   "title": "Тяжёлый завод",
+   "cells": [
+    [
+     32,
+     22
+    ],
+    [
+     33,
+     22
+    ]
+   ],
+   "terminal": [
+    32,
+    23
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0,
+   "mid": true
+  },
+  {
+   "kind": "ROBOT",
+   "title": "Цех",
+   "cells": [
+    [
+     43,
+     35
+    ]
+   ],
+   "terminal": [
+    43,
+    34
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "EXTRACTOR",
+   "title": "Чипы",
+   "cells": [
+    [
+     37,
+     11
+    ]
+   ],
+   "terminal": [
+    37,
+    12
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 2,
+   "power": 0
+  },
+  {
+   "kind": "AIR",
+   "title": "Аэродром",
+   "cells": [
+    [
+     35,
+     29
+    ]
+   ],
+   "terminal": [
+    35,
+    28
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "RELAY",
+   "title": "Вышка",
+   "cells": [
+    [
+     33,
+     16
+    ]
+   ],
+   "terminal": [
+    33,
+    17
+   ],
+   "radius": 30.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 0
+  },
+  {
+   "kind": "EXTRACTOR",
+   "title": "Станция",
+   "cells": [
+    [
+     48,
+     11
+    ]
+   ],
+   "terminal": [
+    48,
+    12
+   ],
+   "radius": 0.0,
+   "metal": 0,
+   "chips": 0,
+   "power": 3
+  }
+ ],
+ "zones": [
+  {
+   "id": 0,
+   "resource": "OIL",
+   "title": "Нефть",
+   "center": [
+    19,
+    13
+   ],
+   "radius": 3
+  },
+  {
+   "id": 1,
+   "resource": "COAL",
+   "title": "Уголь",
+   "center": [
+    25,
+    33
+   ],
+   "radius": 3
+  },
+  {
+   "id": 2,
+   "resource": "GAS",
+   "title": "Газ",
+   "center": [
+    44,
+    9
+   ],
+   "radius": 3
+  },
+  {
+   "id": 3,
+   "resource": "URANIUM",
+   "title": "Уран",
+   "center": [
+    33,
+    23
+   ],
+   "radius": 4
+  },
+  {
+   "id": 4,
+   "resource": "OIL",
+   "title": "Нефть",
+   "center": [
+    46,
+    32
+   ],
+   "radius": 3
+  },
+  {
+   "id": 5,
+   "resource": "COAL",
+   "title": "Уголь",
+   "center": [
+    40,
+    12
+   ],
+   "radius": 3
+  },
+  {
+   "id": 6,
+   "resource": "GAS",
+   "title": "Газ",
+   "center": [
+    21,
+    36
+   ],
+   "radius": 3
+  }
+ ]
+}

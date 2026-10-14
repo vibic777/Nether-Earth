@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8netherearthmain"]
+
+[ext_resource type="Script" path="res://scripts/boot.gd" id="1_boot"]
+[ext_resource type="Script" path="res://scripts/battle_grid.gd" id="2_grid"]
+[ext_resource type="Script" path="res://scripts/iso_camera.gd" id="3_cam"]
+[ext_resource type="Script" path="res://scripts/camera_hud.gd" id="4_hud"]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_boot")
+
+[node name="Grid" type="Node3D" parent="."]
+script = ExtResource("2_grid")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.866025, -0.353553, 0.353553, 0, 0.707107, 0.707107, -0.5, -0.612372, 0.612372, 0, 16, 0)
+shadow_enabled = true
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("3_cam")
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+projection = 1
+current = true
+size = 24.0
+near = 0.05
+far = 800.0
+
+[node name="Hud" type="CanvasLayer" parent="."]
+script = ExtResource("4_hud")
