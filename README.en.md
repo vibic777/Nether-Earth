@@ -2,6 +2,9 @@
 
 [Русский](README.md) · **English**
 
+**License:** [PolyForm Noncommercial 1.0.0](LICENSE). Noncommercial use is allowed. Commercial use requires a separate agreement with vibic777.
+
+
 The ideas for this strategy game go back to school. At 45 they are landing in an early MVP: mechanics and thoughts go in as they come. What comes of it is still open.
 
 An original isometric real-time strategy game built with Godot 4.7. Capture facilities, build units, and battle across maps against AI opponents or other players over a local network. Matches support up to eight sides.

@@ -4,6 +4,10 @@
 **GitHub About / English:** An idea carried since school, now at 45 an early MVP: ideas and mechanics of an isometric RTS, to see what comes of them.
 **Описание GitHub / Русский:** Идея со школы, в 45 всё ещё ранний MVP: складываю мысли и механики изометрической RTS. Посмотрим, что из этого получится.
 
+**Лицензия:** [PolyForm Noncommercial 1.0.0](LICENSE). Некоммерческое использование разрешено. Коммерческое использование — только по отдельному соглашению с vibic777.
+**License:** [PolyForm Noncommercial 1.0.0](LICENSE). Noncommercial use is allowed. Commercial use requires a separate agreement with vibic777.
+
+
 Со школы накопилось много идей для своей стратегии. Сейчас, в 45, они понемногу складываются в ранний MVP: механики и мысли идут в игру как есть. Что из этого выйдет — покажет сам проект.
 
 Изометрическая RTS на Godot 4.7: штабы, вышки связи, захват узлов инженером, сборка техники, схватка до 8 сторон (ИИ и игроки по LAN).
